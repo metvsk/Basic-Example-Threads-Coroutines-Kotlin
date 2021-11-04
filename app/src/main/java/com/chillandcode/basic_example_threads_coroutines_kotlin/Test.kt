@@ -57,11 +57,12 @@ private fun test3() {
 
 
 }
+
 //RUN BLOCKING TEST
 @SuppressLint("NewApi")
 fun test4(){
 
-
+    //if not working use kotlin playground to run the tests
     val formatter = DateTimeFormatter.ISO_LOCAL_TIME
     val time = { formatter.format(LocalDateTime.now()) }
 
